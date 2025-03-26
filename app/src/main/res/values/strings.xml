@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Eagles_GYM</string>
+    <string name="bem_vindo_ao_egles_gym">Bem vindo ao Egles GYM !</string>
+    <string name="ir_para_segunda_tela">Ir para segunda tela</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="todo">TODO</string>
+    <string name="button">Iniciar</string>
+    <string name="fa_a_seu_imc">Faça seu IMC</string>
+    <string name="digite_seu_peso">Digite seu peso:</string>
+    <string name="digite_sua_altura">Digite sua altura:</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado:</string>
+    <string name="pr_ximo">Próximo</string>
+    <string name="voltar">Voltar</string>
+    <string name="integrntes_do_grupo">Integrntes do grupo</string>
+    <string name="felippe_pereira">Felippe Pereira</string>
+    <string name="murillo_perajonk">Murillo Perajonk</string>
+    <string name="gustavo_rodrigues">Gustavo Rodrigues</string>
+    <string name="pedro_rogel">Pedro Rogel</string>
+    <string name="fernando_barreto">Fernando Barreto</string>
+    <string name="integrantes_do_grupo">Integrantes do Grupo:</string>
+    <string name="Voltarr"><![CDATA[Voltar <-]]></string>
+    <string name="pr_ximoo"><![CDATA[Próximo ->]]></string>
+    <string name="voltarrr"><![CDATA[Voltar <-]]></string>
+    <string name="digite_seu_pesoo">Digite seu peso</string>
+</resources>

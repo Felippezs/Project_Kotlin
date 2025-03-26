@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/roxo"
+    tools:context=".SegundaTela">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:text="@string/fa_a_seu_imc"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editPeso"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:hint="@string/digite_seu_pesoo"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editAltura"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="@string/digite_sua_altura"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:padding="20dp"
+        android:text="@string/resultado"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:backgroundTint="#673AB7"
+        android:onClick="calcularIMC"
+        android:textColor="@color/black"
+        android:text="@string/calcular"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bntProximo"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:backgroundTint="#673AB7"
+        android:text="@string/pr_ximoo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/editVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:backgroundTint="#673AB7"
+        android:text="@string/Voltarr"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
