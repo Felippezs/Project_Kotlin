@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="@color/cinza"
+    android:background="@drawable/fundo_estrela"
     tools:context=".SegundaTela">
 
     <TextView
@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="83dp"
         android:text="@string/fa_a_seu_imc"
+        android:background="@color/white"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="34sp"
@@ -24,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:ems="10"
+        android:background="@color/white"
         android:hint="@string/digite_seu_pesoo"
         android:autofillHints=""
         android:inputType="number|numberDecimal"
@@ -36,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:autofillHints=""
+        android:background="@color/white"
         android:ems="10"
         android:hint="@string/digite_sua_altura"
         android:inputType="numberDecimal"
@@ -49,6 +52,7 @@
         android:layout_height="74dp"
         android:padding="20dp"
         android:text="@string/resultado"
+        android:background="@color/white"
         android:textColor="@color/black"
         android:textAlignment="textStart"
         android:textSize="20sp"

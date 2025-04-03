@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cinza"
+    android:background="@drawable/fundo_estrela"
     android:padding="16dp"
     android:gravity="center">
 
@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
+        android:background="@color/white"
         android:text="@string/integrantes_do_grupo"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -21,6 +22,7 @@
 
     <TextView
         android:id="@+id/textView3"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/felippe_pereira"
@@ -31,6 +33,7 @@
 
     <TextView
         android:id="@+id/textView4"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/murillo_perajon"
@@ -41,6 +44,7 @@
 
     <TextView
         android:id="@+id/textView5"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gustavo_rodrigues"
@@ -51,6 +55,7 @@
 
     <TextView
         android:id="@+id/textView6"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pedro_rogel"
@@ -61,6 +66,7 @@
 
     <TextView
         android:id="@+id/textView7"
+        android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/fernando_barreto"
@@ -69,9 +75,11 @@
         android:textSize="20sp"
         android:textStyle="italic"/>
 
+
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
+
         android:layout_height="78dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#9FA0A2"
@@ -83,6 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:ems="10"
+        android:background="@color/white"
         android:hint="@string/digite_a_nota"
         android:autofillHints=""
         android:inputType="number|numberDecimal"
@@ -104,5 +113,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/resultadoo"
+        android:background="@color/white"
         android:textSize="24sp" />
 </LinearLayout>
