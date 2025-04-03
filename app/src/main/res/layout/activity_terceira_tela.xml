@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/roxo"
+    android:background="@color/cinza"
     android:padding="16dp"
     android:gravity="center">
 
@@ -16,7 +17,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView3"
@@ -32,7 +33,7 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/murillo_perajonk"
+        android:text="@string/murillo_perajon"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -71,9 +72,37 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#673AB7"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9FA0A2"
         android:text="@string/voltarrr"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:ems="10"
+        android:hint="@string/digite_a_nota"
+        android:autofillHints=""
+        android:inputType="number|numberDecimal"
+        android:textColor="@color/black"
         android:textSize="20sp"
-        android:layout_marginTop="20dp"/>
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/Editavaliar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9FA0A2"
+        android:text="@string/avaliar"
+        android:textSize="16sp"
+        app:iconTint="#838080" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultadoo"
+        android:textSize="24sp" />
 </LinearLayout>

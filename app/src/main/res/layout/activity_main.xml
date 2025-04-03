@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    android:background="@color/roxo"
+    android:background="@color/cinza"
     tools:context=".MainActivity">
 
     <TextView
@@ -29,23 +29,19 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="485dp"
-        android:contentDescription="@string/todo"
-        app:srcCompat="@drawable/img_1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        android:layout_height="570dp"
+        app:srcCompat="@drawable/captura_de_tela_2025_03_31_211656" />
 
     <Button
         android:id="@+id/editIniciar"
         android:layout_width="match_parent"
         android:layout_height="92dp"
-        android:backgroundTint="#673AB7"
+        android:backgroundTint="#9FA0A2"
         android:text="@string/button"
         android:textColor="@color/black"
         android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>
