@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="20dp"
-    android:background="@drawable/fundo_estrela"
     tools:context=".SegundaTela">
+
+    <!-- Imagem de fundo com efeito cover -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fundo_academia" />
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
 
     <TextView
         android:id="@+id/TextView"
         android:layout_width="match_parent"
         android:layout_height="83dp"
         android:text="@string/fa_a_seu_imc"
+        android:padding="8dp"
+
         android:background="@color/white"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -25,8 +39,10 @@
         android:layout_width="match_parent"
         android:layout_height="85dp"
         android:ems="10"
+        android:layout_marginTop="10dp"
         android:background="@color/white"
         android:hint="@string/digite_seu_pesoo"
+
         android:autofillHints=""
         android:inputType="number|numberDecimal"
         android:textColor="@color/black"
@@ -36,6 +52,7 @@
     <EditText
         android:id="@+id/editAltura"
         android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
         android:layout_height="88dp"
         android:autofillHints=""
         android:background="@color/white"
@@ -49,6 +66,7 @@
     <TextView
         android:id="@+id/textResultado"
         android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
         android:layout_height="74dp"
         android:padding="20dp"
         android:text="@string/resultado"
@@ -61,7 +79,7 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="93dp"
+        android:layout_height="70dp"
         android:backgroundTint="#9FA0A2"
         android:onClick="calcularIMC"
         android:text="@string/calcular"
@@ -72,7 +90,7 @@
     <Button
         android:id="@+id/bntProximo"
         android:layout_width="match_parent"
-        android:layout_height="85dp"
+        android:layout_height="70dp"
         android:backgroundTint="#9E9FA1"
         android:text="@string/pr_ximoo"
         android:textAlignment="center"
@@ -83,7 +101,7 @@
     <Button
         android:id="@+id/editVoltar"
         android:layout_width="match_parent"
-        android:layout_height="92dp"
+        android:layout_height="70dp"
         android:backgroundTint="#9D9EA0"
         android:text="@string/Voltarr"
         android:textAlignment="center"
@@ -91,3 +109,4 @@
         android:textSize="20sp" />
 
 </LinearLayout>
+    </FrameLayout>
