@@ -108,7 +108,7 @@
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:ems="10"
-            android:background="@color/white"
+            android:background="@color/cardview_dark_background"
             android:hint="@string/digite_a_nota"
             android:inputType="number|numberDecimal"
             android:textColor="@color/black"
@@ -129,7 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/resultadoo"
-            android:background="@color/white"
+            android:background="@color/cardview_dark_background"
             android:textSize="24sp" />
 
         <Button
